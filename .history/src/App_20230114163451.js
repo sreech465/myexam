@@ -6,7 +6,6 @@ import { Routes, Route } from "react-router-dom";
 import Jmeet from "./Jmeet";
 import Smeet from "./Smeet";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Joinmeet from "./Joinmeet";
 
 function App() {
   return (

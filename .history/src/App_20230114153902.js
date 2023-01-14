@@ -5,8 +5,6 @@ import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Jmeet from "./Jmeet";
 import Smeet from "./Smeet";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Joinmeet from "./Joinmeet";
 
 function App() {
   return (
@@ -17,7 +15,6 @@ function App() {
             <Route path="/" element={<Details />} />
             <Route path="/jmeet" element={<Jmeet />} />
             <Route path="/smeet" element={<Smeet />} />
-            <Route path="/join" element={<Joinmeet />} />
           </Routes>
         </BrowserRouter>
       </div>
